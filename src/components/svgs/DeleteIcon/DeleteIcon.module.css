@@ -1,0 +1,8 @@
+.DeleteIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.DeleteIcon:hover path {
+    fill: var(--danger);
+}

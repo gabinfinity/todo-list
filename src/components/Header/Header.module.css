@@ -1,0 +1,28 @@
+.header {
+    background: var(--Gray-700, #0D0D0D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 12.5rem;
+}
+
+.firstH1 {
+    color: var(--Blue, #4EA8DE);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-weight: 900;
+}
+
+.secondH1 {
+    color: var(--PurpleDark, #5E60CE);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-weight: 900;
+}

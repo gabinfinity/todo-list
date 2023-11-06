@@ -1,0 +1,86 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5.625rem;
+    width: 62.5rem;
+    margin: 0 auto;
+    gap: 2rem
+}
+
+.App main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 4rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border-top: 1px solid var(--Grey-400, #333);
+}
+
+.SmallTaskContainer {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasksCreated {
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tasksCompleted {
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasksCreated p {
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.tasksCompleted p {
+    font-weight: 700;
+    color: var(--purple);
+}
+
+.numberTasksCreated {
+    display: flex;
+    padding: 0.125rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62.438rem;
+    background: var(--Gray-400, #333);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.numberTasksCompleted {
+    display: flex;
+    padding: 0.125rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62.438rem;
+    background: var(--Gray-400, #333);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.pTotalTasks {
+    color: var(--Gray-300, #808080);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 140%;
+}
